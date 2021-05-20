@@ -9,7 +9,7 @@ const ActorGrid = ({ data }) => {
       {data.map(({ person }) => (
         <ActorCard
           key={person.id}
-          nmae={person.name}
+          name={person.name}
           country={person.country ? person.country.name : null}
           birthday={person.birthday}
           deathday={person.deathday}
